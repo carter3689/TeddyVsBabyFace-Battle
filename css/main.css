@@ -1,0 +1,33 @@
+.center{
+    text-align: center;
+}
+
+.bar{
+    height:3rem;
+    width:0%;
+    background:blue;
+    border-left: solid 2px blue;
+    margin-bottom:4px;
+    transition: width 1s;    
+}
+
+.bar-green{
+    background:green;    
+    border-color:green;
+}
+
+input[type='checkbox'] {
+    -webkit-appearance:none;
+    width:30px;
+    height:30px;
+    background:white;
+    border-radius:5px;
+    border:2px solid #555;
+}
+input[type='checkbox']:checked {
+    background: #555;
+}
+
+label{
+    font-size: 1.5rem;
+}

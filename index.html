@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+<link rel="stylesheet" href="css/main.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.slim.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js" defer></script>
+<script src="js/main.js" defer></script>
+<title>Teddy - Vs - BabyFace</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 offset-md-4">
+                    <h1>Vote Here</h1>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="Teddy" value="voteTeddy">
+                            <label class="form-check-label" for="inlineCheckbox1">Teddy</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="BabyFace" value="voteBabyFace">
+                            <label class="form-check-label" for="inlineCheckbox2">BabyFace</label>
+                        </div>
+                        <button type="button" class="btn btn-primary" onclick="vote()">Submit</button>
+                        <button type="button" class="btn btn-primary" onclick=reset()>Reset</button>
+                    </div>
+                </div>
+        <div class="row justify-content-md-center">
+            <div class="col-md-6">
+                <h1 class="center">Teddy</h1>
+                <div id="bar1" class="bar"></div>
+            </div>
+            <div class="col-md-6">
+                <h1 class="center">BabyFace</h1>
+                <div id="bar2" class="bar bar-green"></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
